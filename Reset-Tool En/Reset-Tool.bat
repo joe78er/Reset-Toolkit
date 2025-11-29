@@ -81,6 +81,7 @@ if "%category%"=="8" (
 
 if "%category%"=="0" (
     timeout /t 1 /nobreak >nul
+    cls
     popd
     exit
 )
@@ -109,4 +110,5 @@ if not defined found (
 )
 
 call "%found%"
+
 exit /b 0
